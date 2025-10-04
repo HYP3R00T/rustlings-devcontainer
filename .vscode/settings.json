@@ -4,6 +4,7 @@
     "[toml]": {
         "editor.defaultFormatter": "tamasfe.even-better-toml"
     },
+    "rust-analyzer.inlayHints.typeHints.enable": false,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -19,10 +20,10 @@
         "rustlings/rust-analyzer.toml": true,
         "scripts": true,
         "mise.toml": true,
-        ".vscode": true,
         ".devcontainer": true,
         "rustlings/solutions": true,
-        ".gitignore": true
+        ".gitignore": true,
+        ".vscode": true
     },
     "hide-files.files": [
         "rustlings/target",
@@ -34,9 +35,9 @@
         "rustlings/rust-analyzer.toml",
         "scripts",
         "mise.toml",
-        ".vscode",
         ".devcontainer",
         "rustlings/solutions",
-        ".gitignore"
+        ".gitignore",
+        ".vscode"
     ],
 }
