@@ -3,4 +3,27 @@
     "[toml]": {
         "editor.defaultFormatter": "tamasfe.even-better-toml"
     },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "rustlings/target": true,
+        "rustlings/.gitignore": true,
+        "rustlings/.vscode": true,
+        "rustlings/.rustlings-state.txt": true,
+        "rustlings/Cargo.lock": true,
+        "rustlings/Cargo.toml": true,
+        "rustlings/rust-analyzer.toml": true
+    },
+    "hide-files.files": [
+        "rustlings/target",
+        "rustlings/.gitignore",
+        "rustlings/.vscode",
+        "rustlings/.rustlings-state.txt",
+        "rustlings/Cargo.lock",
+        "rustlings/Cargo.toml",
+        "rustlings/rust-analyzer.toml"
+    ],
 }
