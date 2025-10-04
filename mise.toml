@@ -1,0 +1,5 @@
+[tools]
+rust = { version = "latest", profile = "default" }
+
+[settings]
+experimental = true
