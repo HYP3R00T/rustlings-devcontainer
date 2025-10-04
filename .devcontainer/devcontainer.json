@@ -1,5 +1,5 @@
 {
-    "name": "devcontainer-python-template",
+    "name": "rustlings-devcontainer",
     "build": {
         "context": ".",
         "dockerfile": "Dockerfile"
