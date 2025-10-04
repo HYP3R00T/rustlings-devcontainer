@@ -3,3 +3,6 @@ rust = { version = "latest", profile = "default" }
 
 [settings]
 experimental = true
+
+[hooks]
+enter = "bash ./scripts/setup_project.sh"
